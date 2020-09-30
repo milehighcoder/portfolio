@@ -19,6 +19,9 @@ nav a {
 /* nav bar ends here */
 
 /* about starts here */
+.jumbotron {
+  background-color: white;
+}
 
 div img {
   margin-bottom: 20px;
@@ -36,11 +39,6 @@ div p {
   font-size: 16px;
   text-align: left;
 }
-
-div a {
-  margin-bottom: 30px;;
-}
-
 /* about ends here */
 
 /* footer starts here */
