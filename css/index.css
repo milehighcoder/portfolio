@@ -1,10 +1,8 @@
-/* body is my company's brand kit color pallette */
-
 body {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
-/* nav bar styling starts here */
+/* nav bar starts here */
 
 nav p {
   font-family: Vintage_Cre;
@@ -18,4 +16,25 @@ nav a {
   font-size: 16px;
 }
 
-/* nav bar styling ends here */
+/* nav bar ends here */
+
+/* about starts here */
+
+div img {
+  margin-bottom: 20px;
+}
+
+div h1 {
+  font-family: Vintage_Cre;
+  font-size: 56px;
+  color: #383d45;
+  text-align: left;
+}
+
+div p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  text-align: left;
+}
+
+/* about ends here */
