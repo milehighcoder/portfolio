@@ -37,4 +37,24 @@ div p {
   text-align: left;
 }
 
+div a {
+  margin-bottom: 30px;;
+}
+
 /* about ends here */
+
+/* footer starts here */
+footer {
+  margin-top: 90px;
+}
+
+footer span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  margin: 0px auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+/* footer ends here */
