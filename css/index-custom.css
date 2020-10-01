@@ -3,10 +3,10 @@ body {
 }
 
 /* nav bar starts here */
-nav h1 {
+nav h1 a {
   font-family: A Pompadour Sample;
   color: white;
-  font-size: 28px;
+  font-size: 28px; 
   margin: 5px;
 }
 
