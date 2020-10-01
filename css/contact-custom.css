@@ -1,6 +1,11 @@
 body {
     background-color: #ffffff;
   }
+
+@font-face {
+  font-family: 'A Pompadour Sample';
+  src: url(/assets/text/APompadour.ttf);
+}
   
   /* nav bar starts here */
   nav h1 {
