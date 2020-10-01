@@ -1,34 +1,69 @@
 body {
-    background-color: #ffffff;
-  }
-  
-  /* nav bar starts here */
-  nav h1 {
-    font-family: A Pompadour Sample;
-    color: white;
-    font-size: 28px;
-    margin: 5px;
-  }
-  
-  nav a {
-    font-family: sans-serif;
-    font-size: 16px;
-  }
-  /* nav bar ends here */
-  
-  /* footer starts here */
-  footer {
-    margin-top: 90px;
-  }
-  
-  footer span {
-    font-family: sans-serif;
-    color: white;
-    margin: 0px auto;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    text-align: center;
-    font-size: 12px;
-  }
-  /* footer ends here */
-  
+  background-color: #ffffff;
+}
+
+/* nav bar starts here */
+nav h1 {
+  font-family: A Pompadour Sample;
+  color: white;
+  font-size: 28px;
+  margin: 5px;
+}
+
+nav a {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+/* nav bar ends here */
+
+/* portfolio starts here */
+.jumbotron {
+  background-color: white;
+}
+
+h1 {
+  font-family: A Pompadour Sample;
+  font-size: 48px;
+}
+
+main div p {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+div img {
+  height: 0 auto;
+  width: 0 auto;
+}
+
+h2 {
+  font-family: A Pompadour Sample;
+  font-size: 28px;
+}
+
+.btn {
+  background-color: #383d45
+}
+
+/* portfolio ends here */
+
+/* footer starts here */
+footer {
+  margin-top: 90px;
+}
+
+footer span {
+  font-family: sans-serif;
+  color: white;
+  margin: 0px auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+/* footer ends here */
+
+@font-face {
+  font-family: "A Pompadour Sample";
+  src: url("../assets/text/APompadour.ttf");
+}
