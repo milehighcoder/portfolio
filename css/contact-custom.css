@@ -27,12 +27,17 @@ body {
     font-size: 48px;
     color: #383d45;
   }
+  
+  main form div {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: whit;
+  }
 
   .btn {
     background-color: #383d45;
     font-family: sans-serif;
   }
-
   /* contact form ends here */
 
   /* footer starts here */
