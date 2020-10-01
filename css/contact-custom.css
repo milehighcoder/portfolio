@@ -1,67 +1,68 @@
 body {
-    background-color: #ffffff;
-  }
-  
-  /* nav bar starts here */
-  nav h1 {
-    font-family: A Pompadour Sample;
-    color: white;
-    font-size: 28px;
-    margin: 5px;
-  }
-  
-  nav a {
-    font-family: sans-serif;
-    font-size: 16px;
-  }
-  /* nav bar ends here */
-  
-  /* contact form starts here */
-  main {
-    margin: 20px;
-  }
+  background-color: #ffffff;
+}
 
-  h1 {
-    font-family: A Pompadour Sample;
-    font-size: 48px;
-    color: #383d45;
-  }
+/* nav bar starts here */
+nav h1 {
+  font-family: A Pompadour Sample;
+  color: white;
+  font-size: 28px;
+  margin: 5px;
+}
 
-  p {
-    font-family: sans-serif;
-    font-size: 16px;
-  }
+nav a {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+/* nav bar ends here */
 
-  main form div {
-    font-family: sans-serif;
-    font-size: 16px;
-    color: #383d45;
-  }
+/* contact form starts here */
+main {
+  margin-top: 20px;
+  padding-bottom: 90px;
+}
 
-  .btn {
-    background-color: #383d45;
-    color: white;
-    font-family: sans-serif;
-  }
-  /* contact form ends here */
+h1 {
+  font-family: A Pompadour Sample;
+  font-size: 48px;
+  color: #383d45;
+}
 
-  /* footer starts here */
-  footer {
-    margin-top: 90px;
-  }
-  
-  footer span {
-    font-family: sans-serif;
-    color: white;
-    margin: 0px auto;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    text-align: center;
-    font-size: 12px;
-  }
-  /* footer ends here */
+p {
+  font-family: sans-serif;
+  font-size: 16px;
+}
 
-  @font-face {
-    font-family: "A Pompadour Sample";
-    src: url("../assets/text/APompadour.ttf");
-  }
+main form div {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #383d45;
+}
+
+.btn {
+  background-color: #383d45;
+  color: white;
+  font-family: sans-serif;
+}
+/* contact form ends here */
+
+/* footer starts here */
+footer {
+  margin-top: 90px;
+}
+
+footer span {
+  font-family: sans-serif;
+  color: white;
+  margin: 0px auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+/* footer ends here */
+
+@font-face {
+  font-family: "A Pompadour Sample";
+  src: url("../assets/text/APompadour.ttf");
+}
