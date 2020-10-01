@@ -81,5 +81,5 @@ footer span {
 
 @font-face {
   font-family: 'A Pompadour Sample';
-  src: url('../assets/text/APompadour.ttf';
+  src: local('../assets/text/APompadour.ttf');
 }
