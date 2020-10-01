@@ -17,9 +17,8 @@ body {
   /* nav bar ends here */
   
   /* contact form starts here */
-
   main {
-    margin-top: 20px;
+    margin: 20px;
   }
 
   h1 {
@@ -27,11 +26,11 @@ body {
     font-size: 48px;
     color: #383d45;
   }
-  
+
   main form div {
     font-family: sans-serif;
     font-size: 16px;
-    color: whit;
+    color: #383d45;
   }
 
   .btn {
