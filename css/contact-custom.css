@@ -1,13 +1,6 @@
 body {
     background-color: #ffffff;
   }
-
-@font-face {
-  font-family: A Pompadour Sample;
-  src: url("/assets/text/APompadour.ttf");
-  font-weight: normal;
-  font-style: normal;
-}
   
   /* nav bar starts here */
   nav h1 {
@@ -62,3 +55,9 @@ body {
   }
   /* footer ends here */
   
+  @font-face {
+    font-family: "A Pompadour Sample" ;
+    src: url("./assets/text/APompadour.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
