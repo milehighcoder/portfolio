@@ -1,12 +1,8 @@
-body {
-  background-color: #ffffff;
-}
-
 /* nav bar starts here */
-nav h1 a {
+nav p {
   font-family: A Pompadour Sample;
   color: white;
-  font-size: 28px; 
+  font-size: 28px;
   margin: 5px;
 }
 
@@ -59,10 +55,10 @@ footer span {
   font-family: sans-serif;
   color: white;
   margin: 0px auto;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   text-align: center;
-  font-size: 12px;
+  font-size: 10px;
 }
 /* footer ends here */
 

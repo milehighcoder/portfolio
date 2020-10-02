@@ -1,12 +1,8 @@
-body {
-  background-color: #ffffff;
-}
-
-/* nav bar starts here */
-nav h1 a {
+/* navigation bar starts here */
+nav p {
   font-family: A Pompadour Sample;
   color: white;
-  font-size: 28px; 
+  font-size: 28px;
   margin: 5px;
 }
 
@@ -14,40 +10,36 @@ nav a {
   font-family: sans-serif;
   font-size: 16px;
 }
-/* nav bar ends here */
+/* navigation bar ends here */
 
 /* about starts here */
 .jumbotron {
   background-color: white;
 }
 
-div img {
-  margin-bottom: 20px;
-}
-
-div h1 {
+main h1 {
   font-family: A Pompadour Sample;
   font-size: 48px;
   color: #383d45;
   text-align: left;
 }
 
-div p {
+main p {
   font-family: sans-serif;
   font-size: 16px;
-  text-align: left;
 }
 
-.btn {
+main a {
   font-family: sans-serif;
   font-size: 18px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 /* about ends here */
 
-/* knowledge bar starts here */
+/* knowledge propress bar starts here */
 section {
-  margin-top: 50px;
+  margin-top: 60px;
   margin-bottom: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -55,14 +47,14 @@ section {
   border-radius: 15px;
 }
 
-div h2 {
+section h2 {
   font-family: A Pompadour Sample;
   font-size: 48px;
   color: white;
   text-align: center;
   margin-bottom: 20px;
 }
-/* knowledge bar ends here */
+/* knowledge progress bar ends here */
 
 /* footer starts here */
 footer {
@@ -73,10 +65,10 @@ footer span {
   font-family: sans-serif;
   color: white;
   margin: 0px auto;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   text-align: center;
-  font-size: 12px;
+  font-size: 10px;
 }
 /* footer ends here */
 
