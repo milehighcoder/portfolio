@@ -20,23 +20,25 @@ nav a {
 h1 {
   font-family: A Pompadour Sample;
   font-size: 48px;
-}
-
-main div p {
-  font-family: sans-serif;
-  font-size: 16px;
-}
-
-div img {
-  height: 0 auto;
-  width: 0 auto;
-  object-fit: cover;
-  object-position: 50% 50%;
+  color: #383d45;
 }
 
 h2 {
   font-family: A Pompadour Sample;
-  font-size: 28px;
+  font-size: 32px;
+  color: #383d45;
+}
+
+main p {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+img {
+  height: 0 auto;
+  width: 0 auto;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 .btn {
