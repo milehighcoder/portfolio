@@ -20,7 +20,7 @@ This was an extrememly enjoyable project as UX/UI design is my favorite aspect o
 
 ## Links
 
-![src](https://mychalgm.github.io/responsive-portfolio "Portfolio")
+[Portfolio](https://mychalgm.github.io/responsive-portfolio)
 https://github.com/mychalgm/responsive-portfolio
 
 ![alttext](assets/images/about-screenshot.png "About Page Screenshot")
