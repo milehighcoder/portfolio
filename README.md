@@ -20,8 +20,8 @@ This was an extrememly enjoyable project as UX/UI design is my favorite aspect o
 
 ## Links
 
-![alttext](https://mychalgm.github.io/responsive-portfolio "Portfolio Website")
-![alttext](assets/images/about-screenshot.png "About Page Screenshot")
-![alttext](assets/images/portfolio-screenshot.png "Portfolio Page Screenshot")
-![alttext](assets/images/contact-screenshot.png "Contact Page Screenshot")
-![alttext](https://github.com/mychalgm/responsive-portfolio "Repository")
+[href](https://mychalgm.github.io/responsive-portfolio "Portfolio Website")
+[alttext](assets/images/about-screenshot.png "About Page Screenshot")
+[alttext](assets/images/portfolio-screenshot.png "Portfolio Page Screenshot")
+[alttext](assets/images/contact-screenshot.png "Contact Page Screenshot")
+[href](https://github.com/mychalgm/responsive-portfolio "Repository")
