@@ -16,7 +16,7 @@ After taking about an hour to figure out why the font wasn't displaying correctl
 
 ## Conclusion
 
-This was an extrememly enjoyable project as UX/UI design is my favorite aspect of web development. The Bootstrap framework allows for endless styling options too. Since I'm still new to coding and in the process of learning JavaScript, it will take some time before I can enable my contact form to store user entries. I can't wait to make an update to this applicatoin in the near future!
+This was an extrememly enjoyable project as UX/UI design is my favorite aspect of web development. The Bootstrap framework allows for endless styling options too. Since I'm still new to coding and in the process of learning JavaScript, it will take some time before I can enable my contact form to store user entries. I can't wait to make an update to this application in the near future!
 
 ## Links
 
