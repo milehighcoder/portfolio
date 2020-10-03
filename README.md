@@ -21,7 +21,6 @@ This was an extrememly enjoyable project as UX/UI design is my favorite aspect o
 ## Links
 
 [Portfolio](https://mychalgm.github.io/responsive-portfolio)
-
 [Repository](https://github.com/mychalgm/responsive-portfolio)
 
 ## Screenshots
