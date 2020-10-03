@@ -42,8 +42,10 @@ img {
 }
 
 .btn {
-  background-color: #383d45;
-  margin-bottom: 60px;;
+  background-color:#287bff;
+  margin-bottom: 60px;
+  border: 0;
+  border-radius: 0;
 }
 /* portfolio ends here */
 
@@ -53,13 +55,17 @@ footer {
 }
 
 footer span {
-  font-family: sans-serif;
-  color: white;
   margin: 0px auto;
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
-  font-size: 10px;
+}
+
+footer img {
+  border-radius: 6rem;
+  width: 10%;
+  margin: .5%;
+  text-align: center;
 }
 /* footer ends here */
 

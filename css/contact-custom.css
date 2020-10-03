@@ -18,9 +18,9 @@ body {
 }
 .contact-form {
   background: #287bff;
-  margin-top: 10%;
-  margin-bottom: 5%;
-  width: 70%;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  width: 35%;
 }
 .contact-form .form-control {
   border-radius: 1rem;
@@ -71,14 +71,19 @@ footer {
 }
 
 footer span {
-  font-family: sans-serif;
-  color: white;
   margin: 0px auto;
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
-  font-size: 10px;
 }
+
+footer img {
+  border-radius: 6rem;
+  width: 10%;
+  margin: .5%;
+  text-align: center;
+}
+
 /* footer ends here */
 
 @font-face {
