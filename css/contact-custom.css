@@ -90,7 +90,8 @@ footer img {
 
 /* footer ends here */
 
+/* allows custom fonts to display on mobile browsers */
 @font-face {
   font-family: "A Pompadour Sample";
-  src: url("../assets/text/APompadour.ttf");
+  src: url("../assets/fonts/APompadour.ttf");
 }
