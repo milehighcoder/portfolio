@@ -7,78 +7,115 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
-    <!-- Bootstrap CSS -->
+    <!-- bootstrap -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <!-- custom css -->
     <link rel="stylesheet" type="text/css" href="css/contact-custom.css" />
     <title>Contact | Mychal Martinez</title>
   </head>
 
   <body>
-    <!-- nav bar starts here -->
-    <nav class="navbar sticky-top navbar-dark" style="background-color: #383d45">
+    <!-- navigation bar starts here -->
+    <nav
+      class="navbar sticky-top navbar-dark"
+      style="background-color: #383d45"
+    >
       <p>&lt;/mychalmartinez&gt;</p>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <div class="navbar-nav float-right text-right pr-3">
           <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">about <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                >about <span class="sr-only">(current)</span></a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="portfolio.html">portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">contact</a>
+              <a class="nav-link active" href="contact.html">contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- nav bar ends here -->
+    <!-- navigation bar ends here -->
 
     <!-- contact form starts here -->
-    <main class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h1>send message</h1>
-          <p>If you would like to get in touch with Mychal, please complete the form below.</p>
-          <form>
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="inputName4">name</label>
-                <input type="name" class="form-control" id="inputName4" />
-              </div>
-              <div class="form-group col-md-6">
-                <label for="inputEmail4">phone</label>
-                <input type="phone" class="form-control" id="inputPhone4" />
-              </div>
-            </div>
+    <main class="container contact-form">
+      <div class="contact-image">
+        <img src="assets/images/code-symbol.png" alt="code-symbol" />
+      </div>
+      <form method="post">
+        <h3>contact</h3>
+        <div class="row">
+          <div class="col-md-6">
             <div class="form-group">
-              <label for="inputEmail">email</label>
-              <input type="email" class="form-control" id="inputEmail" />
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">message</label>
-              <textarea
+              <input
+                type="text"
+                name="txtName"
                 class="form-control"
-                id="exampleFormControlTextarea1"
-                rows="3"
+                placeholder="name *"
+                value=""
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                name="txtEmail"
+                class="form-control"
+                placeholder="email *"
+                value=""
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                name="txtPhone"
+                class="form-control"
+                placeholder="phone *"
+                value=""
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="submit"
+                name="btnSubmit"
+                class="btnContact"
+                value="send message"
+              />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <textarea
+                name="txtMsg"
+                class="form-control"
+                placeholder="message *"
+                style="width: 100%; height: 150px"
               ></textarea>
             </div>
-            <br/>
-            <button type="submit" class="btn" >submit</button>
-          </form>
-      </div>
+          </div>
+        </div>
+      </form>
     </main>
-    <!-- contact form ends here -->
+    <!-- contact form starts here -->
 
     <!-- footer starts here -->
     <footer>

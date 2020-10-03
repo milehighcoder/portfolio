@@ -1,4 +1,4 @@
-/* nav bar starts here */
+/* navigation bar starts here */
 nav p {
   font-family: A Pompadour Sample;
   color: white;
@@ -10,7 +10,7 @@ nav a {
   font-family: sans-serif;
   font-size: 16px;
 }
-/* nav bar ends here */
+/* navigation bar ends here */
 
 /* portfolio starts here */
 .jumbotron {
@@ -45,7 +45,6 @@ img {
   background-color: #383d45;
   margin-bottom: 60px;;
 }
-
 /* portfolio ends here */
 
 /* footer starts here */

@@ -1,4 +1,4 @@
-/* nav bar starts here */
+/* navigation bar starts here */
 nav p {
   font-family: A Pompadour Sample;
   color: white;
@@ -10,35 +10,58 @@ nav a {
   font-family: sans-serif;
   font-size: 16px;
 }
-/* nav bar ends here */
+/* navigation bar ends here */
 
 /* contact form starts here */
-main {
-  margin-top: 20px;
-  padding-bottom: 90px;
+body {
+  background: #fff;
+}
+.contact-form {
+  background: #287bff;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 70%;
+}
+.contact-form .form-control {
+  border-radius: 1rem;
+}
+.contact-image {
+  text-align: center;
+}
+.contact-image img {
+  border-radius: 6rem;
+  width: 20%;
+  margin-top: -3%;
+}
+.contact-form form {
+  padding: 7%;
 }
 
-h1 {
+.contact-form h3 {
   font-family: A Pompadour Sample;
-  font-size: 48px;
-  color: #383d45;
+  font-size: 28px;
+  margin-bottom: 8%;
+  text-align: center;
+  color: #fff;
 }
-
-p {
-  font-family: sans-serif;
-  font-size: 16px;
+.contact-form .btnContact {
+  width: 100%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #fff;
+  font-weight: 600;
+  color: #287bff;
+  cursor: pointer;
 }
-
-main form div {
-  font-family: sans-serif;
-  font-size: 16px;
-  color: #383d45;
-}
-
-.btn {
-  background-color: #383d45;
-  color: white;
-  font-family: sans-serif;
+.btnContactSubmit {
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #287bff;
+  border: none;
+  cursor: pointer;
 }
 /* contact form ends here */
 
