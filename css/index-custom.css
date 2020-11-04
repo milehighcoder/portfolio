@@ -1,9 +1,6 @@
 /* navigation bar starts here */
-nav p {
-  font-family: A Pompadour Sample;
-  color: white;
-  font-size: 28px;
-  margin: 5px;
+.nav-logo {
+  width: 50px;
 }
 
 nav a {
