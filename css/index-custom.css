@@ -36,7 +36,7 @@ main p {
   margin-bottom: 10px;
   background-color: #287bff;
   border: 0;
-  border-radius: 0;
+  border-radius: 5px;
 }
 /* about ends here */
 
@@ -47,7 +47,7 @@ section {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #383d45;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 section h2 {
@@ -58,6 +58,10 @@ section h2 {
   margin-bottom: 20px;
 }
 /* knowledge progress bar ends here */
+
+.bg-warning {
+  color: #383d45;
+}
 
 /* footer starts here */
 footer {
