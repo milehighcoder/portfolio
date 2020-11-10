@@ -20,8 +20,8 @@ This was an extrememly enjoyable project as UX/UI design is my favorite aspect o
 
 ## Deployed Links
 
-[Portfolio](https://mychalgm.github.io/portfolio)<br>
-[Repository](https://github.com/mychalgm/responsive-portfolio)
+[Portfolio](https://milehighcoder.github.io/portfolio)<br>
+[Repository](https://github.com/milehighcoder/responsive-portfolio)
 
 ## Screenshots
 
