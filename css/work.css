@@ -8,8 +8,8 @@ body {
 }
 
 .nav-link {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
   color: white;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 .jumbo-p {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   margin-top: 5px;
   margin-bottom: 40px;
@@ -56,27 +56,38 @@ body {
 }
 
 h1 {
-  font-family: A Pompadour Sample;
-  font-size: 48px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 72px;
+  font-weight: 500;
   color: #383d45;
 }
 
 h2 {
-  font-family: A Pompadour Sample;
+  font-family: 'Open Sans', sans-serif;
   font-size: 32px;
   color: #383d45;
 }
 
 p {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: rgb(139, 139, 139);
+  color: #979797;
 }
 
 .btn {
-  background-color: #287bff;
-  border: none;
+  background-color: white;
+  border: solid 1px #383d45;
   border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  color: #383d45;
+  margin-left: 10px;
+}
+
+.btn-deploy {
+  background-color: #4385F4!important;
+  border: none;
+  margin-left: 0;
+  color: white;
 }
 
 #bottom-gutter {

@@ -1,13 +1,11 @@
-
-
 /* navigation bar starts here */
 .nav-logo {
   width: 50px;
 }
 
 .nav-link {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
   color: white;
 }
 
@@ -28,6 +26,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+  width: 450px;
 }
 
 main {
@@ -40,30 +39,35 @@ main {
 }
 
 h1 {
-  font-family: A Pompadour Sample;
+  font-family: 'Open Sans', sans-serif;
   font-size: 42px;
   color: #383d45;
   text-align: left;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
 
 h2 {
-  font-size: 21px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: #383d45;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  color: white;
+  text-align: left;
+  margin-bottom: 20px;
+  font-weight: 500;
 }
 
 p {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: rgb(116, 116, 116);
+  font-weight: 300;
+  margin-bottom: 20px;
 }
 
 .btn {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-color: #287bff;
+  margin-bottom: 20px;
+  background-color: #4385F4;
   border: 0;
   border-radius: 5px;
 }
@@ -78,18 +82,10 @@ section {
   border-radius: 5px;
 }
 
-section h2 {
-  font-family: A Pompadour Sample;
-  font-size: 38px;
-  color: white;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
 .knowledge-row {
   border-radius: 5px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
   padding-left: 5px;
   padding-right: 5px;
   margin-left: 1px;
@@ -108,6 +104,7 @@ section h2 {
 
 .bg-yellow {
   background-color: #FBBC06;
+  color: #383d45;
 }
 /* Knowledge Ends Here */
 
@@ -125,7 +122,7 @@ section h2 {
 
 .footer-icons {
   border-radius: 50%;
-  width: 30px;
+  width: 40px;
 }
 /* Footer Ends Here */
 
