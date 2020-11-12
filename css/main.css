@@ -1,0 +1,265 @@
+body {
+  background-color: #515864;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 64px;
+}
+
+h3 {
+  color: white;
+  font-size: 36px;
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+}
+
+/* NAV STARTS HERE */
+.nav-logo {
+  width: 50px;
+}
+
+.nav-link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.navbar {
+  background-color: #383d45;
+  position: relative;
+}
+
+.navbar-toggler {
+  color: white;
+}
+/* NAV ENDS HERE */
+
+/* BIO STARTS HERE */
+.bio {
+  margin-top: 50px;
+}
+
+.bio-img {
+  border-radius: 50%;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+#bio-text {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.dark-p {
+  color: white;
+}
+
+.bio-icons {
+  border-radius: 50%;
+  width: 30px;
+  margin-top: 10px;
+}
+/* BIO ENDS HERE */
+
+/* SKILLS STARTS HERE */
+.skills-wrapper {
+  background-color: #484d57;
+}
+
+section {
+  margin-top: 60px;
+  padding-top: 30px;
+  padding-bottom: 45px;
+}
+
+#skills-h3 {
+  color: white;
+  font-size: 48px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.skills-row {
+  padding-right: 50px;
+  padding-left: 30px;
+  text-align: center;
+}
+
+.bg-red {
+  background-color: #ea4335;
+}
+
+.bg-blue {
+  background-color: #4385f4;
+}
+
+.bg-yellow {
+  background-color: #fbbc06;
+  color: #383d45;
+}
+/* SKILLS ENDS HERE */
+
+/* WORK STARTS HERE */
+.work-wrapper {
+  background-color: #383d45;
+}
+
+.work-header {
+  margin-top: 0px;
+  margin-bottom: -135px;
+}
+
+.work-row {
+  margin-top: 50px;
+}
+
+.jumbo-body {
+  margin-bottom: auto;
+  margin-top: auto;
+  text-align: center;
+}
+
+.jumbo-p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  color: white;
+  font-weight: 300;
+}
+
+.project-row {
+  border-top: solid 1px rgb(54, 54, 54);
+  border-radius: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #515864;
+}
+
+.project-row-top {
+  border-radius: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #515864;
+}
+
+.btn-deploy {
+  background-color: #4385f4 !important;
+  border: none;
+  border-radius: 0;
+  margin-left: 0;
+  color: white;
+  font-weight: 500;
+}
+
+.btn-deploy:hover {
+  background-color: #383d45 !important;
+}
+
+.btn-repo {
+  border-radius: 0em;
+  border: 1px solid #383d45;
+  background-color: rgb(233, 233, 233);
+  color: #383d45;
+  font-weight: 400;
+}
+
+.btn-repo:hover {
+  background-color: #383d45 !important;
+}
+
+#bottom-gutter {
+  margin-bottom: 10px;
+}
+/* WORK ENDS HERE */
+
+/* CONTACT FORM STARTS HERE */
+#contact-h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 28px;
+  margin-bottom: 8%;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-form {
+  background: #4385f4;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  width: 75%;
+}
+
+.contact-form .form-control {
+  border-radius: 1rem;
+}
+
+.contact-image {
+  text-align: center;
+}
+
+.contact-image img {
+  border-radius: 7rem;
+  width: 20%;
+  margin-top: -4%;
+}
+
+.contact-form form {
+  padding: 5%;
+}
+
+.contact-form .btnContact {
+  width: 100%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #fff;
+  font-weight: 600;
+  color: #287bff;
+  cursor: pointer;
+}
+.btnContactSubmit {
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #287bff;
+  border: none;
+  cursor: pointer;
+}
+/* CONTACT FORM ENDS HERE */
+
+/* FOOTER STARTS HERE */
+.footer-icon-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-icons {
+  border-radius: 50%;
+  width: 30px;
+}
+/* FOOTER ENDS HERE */
