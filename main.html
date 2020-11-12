@@ -16,54 +16,54 @@
 
 <body>
   <!-- NAV STARTS HERE -->
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="#"><img class="nav-logo" src="assets/logos/dark-logo-full.png" alt=""></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0 float-right">
-        <li class="nav-item active">
-          <a class="nav-link active" href="#bio">Bio<span class="sr-only">(current)</span></a>
-        <li class="nav-item">
-          <a class="nav-link" href="#work">Work<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact-form">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <div class="fixed-top">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#"><img class="nav-logo" src="assets/logos/dark-logo-full.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 float-right">
+          <li class="nav-item">
+            <a class="nav-link" href="#bio">Bio<span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Work<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-form">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
   <!-- NAV ENDS HERE -->
 
   <!-- BIO STARTS HERE -->
-  <main class="container bio">
-    <h1>IMPACT BY DESIGN.</h1>
+  <main id="bio" class="container bio">
     <div class="row">
-      <div class="col-lg-5 bio-img-div">
+      <div class="col-lg-6">
+        <h1>
+          IMPACT<br>
+          THROUGH<br>
+          DESIGN.</h1>
+      </div>
+      <div class="col-lg-6 bio-img-div">
         <img src="assets/images/side-profile-headshot.png" class="img-fluid bio-img" alt="Profile Picture">
       </div>
-      <div id="bio-text" class="col-lg-7">
-        <p class="dark-p">
-          Welcome to my portfolio. My name is Mychal Martinez. I am currently a Professional Basketball Skills Trainer based in
-          Denver,
-          CO with 8 years of entrepreneurial experience.
+    </div>
+    <div class="row">
+      <div id="bio-text" class="col-lg-12">
+        <p>
+          My name is Mychal Martinez. I am currently a Professional Basketball Skills Trainer based in
+          Denver, CO with 8 years of entrepreneurial experience. Due the impacts of the COVID-19 pandemic 
+          on my small business, I am seeking new career opportunities in the web development and design 
+          field. I am working towards acquiring a certification in Full Stack Web Development at the
+          University of Denver's Coding Boot Camp. Graduation is tentatively set for March of 2021. With 
+          a passion for design, an entrepreneurial spirit, and tentative plans to add a UX/UI certification 
+          to my resume, I am confident I would be an invaluable asset to any team.
         </p>
-        <p class="dark-p">
-          Due the impacts of the COVID-19 pandemic on my small business,
-          I am seeking new career opportunities in the web development
-          and design field. I am working towards
-          acquiring a certification in Full Stack Web Development at the
-          University of Denver's Coding Boot Camp. Graduation is tentatively
-          set for March of 2021.
-        </p>
-        <p class="dark-p">
-          With a passion for design, an entrepreneurial spirit, and tentative
-          plans to add a UX/UI certification to my resume, I am confident I
-          would be an invaluable asset to any company.
-        </p>
-        <p class="dark-p">
+        <p>
           <b>Email:</b> mgmartnz@icloud.com<br>
           <b>Phone:</b> 702.324.4947
         </p>
@@ -73,6 +73,7 @@
         <a href=""><img class="bio-icons" src="assets/images/resume-icon.png" alt="Resume Icon"></a>
         <a href="#contact-form"><img class="bio-icons" src="assets/images/message-icon.png" alt="Message Icon"></a>
       </div>
+
     </div>
   </main>
   <!-- BIO ENDS HERE -->
@@ -131,7 +132,6 @@
               Node.js
             </div>
           </div>
-
         </div>
     </section>
   </div>
@@ -266,6 +266,12 @@
     </div>
   </nav>
   <!-- FOOTER ENDS HERE -->
+
+  <!-- BOOTSTRAP SCRIPT LINKS START HERE -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- BOOTSTRAP SCRIPT LINKS END HERE -->
 </body>
 
 </html>

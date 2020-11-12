@@ -4,12 +4,12 @@ body {
 
 h1 {
   font-family: "Open Sans", sans-serif;
-  font-size: 48px;
+  font-size: 64px;
   font-weight: 500;
   color: white;
-  font-weight: 600;
-  text-align: center;
-  margin-bottom: 30px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 40px;
 }
 
 h2 {
@@ -54,28 +54,28 @@ p {
 
 /* BIO STARTS HERE */
 .bio {
-  margin-top: 50px;
+  margin-top: 145px;
 }
 
 .bio-img {
   border-radius: 50%;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   width: 100%;
 }
 
 #bio-text {
   margin-top: auto;
   margin-bottom: auto;
-}
-
-.dark-p {
-  color: white;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .bio-icons {
   border-radius: 50%;
   width: 30px;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 /* BIO ENDS HERE */
 
@@ -86,8 +86,8 @@ p {
 
 section {
   margin-top: 60px;
-  padding-top: 30px;
-  padding-bottom: 45px;
+  padding-top: 90px;
+  padding-bottom: 100px;
 }
 
 #skills-h3 {
@@ -124,7 +124,15 @@ section {
 
 .work-header {
   margin-top: 0px;
-  margin-bottom: -135px;
+  margin-bottom: -250px;
+}
+
+#work-h2 {
+  margin-top: -60px;
+}
+
+#mobile-img {
+  width: 100%;
 }
 
 .work-row {
@@ -149,8 +157,8 @@ section {
 .project-row {
   border-top: solid 1px rgb(54, 54, 54);
   border-radius: 0;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   padding-left: 20px;
   padding-right: 20px;
   background-color: #515864;
@@ -158,8 +166,8 @@ section {
 
 .project-row-top {
   border-radius: 0;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   padding-left: 20px;
   padding-right: 20px;
   background-color: #515864;
@@ -191,7 +199,7 @@ section {
 }
 
 #bottom-gutter {
-  margin-bottom: 10px;
+  margin-bottom: 90px;
 }
 /* WORK ENDS HERE */
 
@@ -206,8 +214,8 @@ section {
 
 .contact-form {
   background: #4385f4;
-  margin-top: 75px;
-  margin-bottom: 75px;
+  margin-top: -90px;
+  margin-bottom: 105px;
   width: 75%;
 }
 
