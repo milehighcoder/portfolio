@@ -8,8 +8,8 @@ This was an extrememly enjoyable project as UX/UI design is my favorite aspect o
 
 ## Technologies Used
 
-HTML 5
-CSS 3
+HTML 5<br>
+CSS 3<br>
 Bootstrap 4
 
 ## Deployed Links
