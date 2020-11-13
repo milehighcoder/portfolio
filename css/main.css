@@ -8,7 +8,6 @@ h1 {
   font-weight: 500;
   color: white;
   font-weight: 700;
-  text-align: left;
   margin-bottom: 40px;
 }
 
@@ -16,6 +15,7 @@ h2 {
   color: white;
   font-family: "Open Sans", sans-serif;
   font-size: 64px;
+  font-weight: 600;
 }
 
 h3 {
@@ -26,7 +26,7 @@ h3 {
 
 p {
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   color: white;
 }
@@ -53,27 +53,26 @@ p {
 /* NAV ENDS HERE */
 
 /* BIO STARTS HERE */
-.bio {
-  margin-top: 145px;
+.bio-header {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: -90px
 }
 
 .bio-img {
   border-radius: 50%;
-  margin-bottom: 40px;
   width: 100%;
 }
 
-#bio-text {
+.bio-text {
   margin-top: auto;
   margin-bottom: auto;
   text-align: left;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .bio-icons {
   border-radius: 50%;
-  width: 30px;
+  width: 50px;
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -94,12 +93,12 @@ section {
   color: white;
   font-size: 48px;
   margin-bottom: 30px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .skills-row {
-  padding-right: 50px;
-  padding-left: 30px;
+  padding-right: 5px;
+  padding-left: 5px;
   text-align: center;
 }
 
@@ -129,6 +128,7 @@ section {
 
 #work-h2 {
   margin-top: -60px;
+  text-align: center;
 }
 
 #mobile-img {
@@ -142,7 +142,7 @@ section {
 .jumbo-body {
   margin-bottom: auto;
   margin-top: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .jumbo-p {
@@ -152,6 +152,7 @@ section {
   margin-bottom: 40px;
   color: white;
   font-weight: 300;
+  text-align: center;
 }
 
 .project-row {
@@ -159,8 +160,6 @@ section {
   border-radius: 0;
   padding-top: 70px;
   padding-bottom: 70px;
-  padding-left: 20px;
-  padding-right: 20px;
   background-color: #515864;
 }
 
@@ -168,8 +167,6 @@ section {
   border-radius: 0;
   padding-top: 70px;
   padding-bottom: 70px;
-  padding-left: 20px;
-  padding-right: 20px;
   background-color: #515864;
 }
 
@@ -199,24 +196,31 @@ section {
 }
 
 #bottom-gutter {
-  margin-bottom: 90px;
+  margin-bottom: -100px;
 }
 /* WORK ENDS HERE */
 
 /* CONTACT FORM STARTS HERE */
-#contact-h1 {
+.contact-wrapper {
+  background-color: #383D45;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+
+#contact-h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 28px;
+  margin-top: 2%;
   margin-bottom: 8%;
   text-align: center;
   color: #fff;
+  font-weight: 400;
 }
 
 .contact-form {
   background: #4385f4;
-  margin-top: -90px;
-  margin-bottom: 105px;
-  width: 75%;
+  margin-bottom: 100px;
+  width: 90%;
 }
 
 .contact-form .form-control {
@@ -234,7 +238,8 @@ section {
 }
 
 .contact-form form {
-  padding: 5%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .contact-form .btnContact {
@@ -259,15 +264,19 @@ section {
 /* CONTACT FORM ENDS HERE */
 
 /* FOOTER STARTS HERE */
+.footer {
+  background-color: #515864;
+}
+
 .footer-icon-wrapper {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .footer-icons {
   border-radius: 50%;
-  width: 30px;
+  width: 40px;
 }
 /* FOOTER ENDS HERE */
