@@ -22,6 +22,7 @@ h3 {
   color: white;
   font-size: 36px;
   font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
 }
 
 p {
@@ -29,6 +30,7 @@ p {
   font-size: 18px;
   font-weight: 300;
   color: white;
+  text-align: left;
 }
 
 section {
@@ -95,7 +97,7 @@ section {
 
 .work-header {
   margin-top: 0px;
-  margin-bottom: -250px;
+  margin-bottom: -210px;
 }
 
 #work-h2 {
@@ -127,6 +129,10 @@ section {
   text-align: center;
 }
 
+.work-img {
+  border-radius: 10px;
+}
+
 .project-row {
   border-top: solid 1px rgb(54, 54, 54);
   border-radius: 0;
@@ -145,10 +151,11 @@ section {
 .btn-deploy {
   background-color: #4385f4 !important;
   border: none;
-  border-radius: 0;
+  border-radius: 5px;
   margin-left: 0;
   color: white;
   font-weight: 500;
+  margin-top: 20px;
 }
 
 .btn-deploy:hover {
@@ -156,11 +163,12 @@ section {
 }
 
 .btn-repo {
-  border-radius: 0em;
+  border-radius: 5px;
   border: 1px solid #383d45;
   background-color: rgb(233, 233, 233);
   color: #383d45;
   font-weight: 400;
+  margin-top: 20px;
 }
 
 .btn-repo:hover {
