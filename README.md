@@ -19,8 +19,6 @@ Bootstrap 4
 
 ## Screenshots
 
-![alttext](assets/images/bio-screenshot.png "Bio Page")
+![alttext](assets/images/app-screenshot.png "App Screenshot")
 
-![alttext](assets/images/work-screenshot.png "Work Page")
-
-![alttext](assets/images/contact-screenshot.png "Contact Page")
+![alttext](assets/images/screenshot-02.png "Work Page")
